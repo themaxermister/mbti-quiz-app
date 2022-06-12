@@ -13,6 +13,19 @@ def resource_path(relative_path):
 
     return os.path.join(base_path, relative_path)
 
+def get_download_path():
+    """Returns the default downloads path for linux or windows"""
+    if os.name == 'nt':
+        import winreg
+        sub_key = r'SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders'
+        downloads_guid = '{374DE290-123F-4565-9164-39C4925E467B}'
+        with winreg.OpenKey(winreg.HKEY_CURRENT_USER, sub_key) as key:
+            location = winreg.QueryValueEx(key, downloads_guid)[0]
+        return location
+    else:
+        return os.path.join(os.path.expanduser('~'), 'downloads')
+
+
 current = {
     "E": 0,
     "I": 0,
@@ -106,13 +119,15 @@ def append_results(file_name):
         f.close()
 
 def quiz():
-    # Get name
+    # Get file name
     csv_file_name = ""
 
     while True:
         user_name = remove_spaces(input("Enter name: "))
-        csv_file_name = ("%s_results.csv" % (user_name))
+        user_file_name = "%s_results.csv" % user_name
+        csv_file_name = os.path.join(get_download_path(), user_file_name)
         confirm_user = input ("Saving results to %s. Confirm (Y/n)? " % (csv_file_name))
+        
         if confirm_user.lower() in ["y", ""]:
             break
         elif confirm_user.lower() == "n":
