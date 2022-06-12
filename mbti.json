@@ -1,0 +1,655 @@
+{
+    "form":[
+        {
+            "1":{
+                "qns": "When you go somewhere for the day, would you rather",
+                "ansA": {"response": "plan what you will do and when", "result": "J"},
+                "ansB": {"response": "just go", "result": "P"}
+            }
+        },
+        {
+            "2":{
+                "qns": "Do you consider yourself to be",
+                "ansA": {"response": "more of a spontaneous person", "result": "P"},
+                "ansB": {"response": "more of an organized person", "result": "J"}
+            }
+        },
+        {
+            "3":{
+                "qns": "If you were a teacher, would you rather teach",
+                "ansA": {"response": "fact courses", "result": "S"},
+                "ansB": {"response": "courses involving theory", "result": "N"}
+            }
+        },
+        {
+            "4":{
+                "qns": "Are you usually",
+                "ansA": {"response": "a 'good mixer'", "result": "E"},
+                "ansB": {"response": "rather quiet and reserved", "result": "I"}
+            }
+        },
+        {
+            "5":{
+                "qns": "Do you usually get along better with",
+                "ansA": {"response": "imaginative people", "result": "N"},
+                "ansB": {"response": "realistic people", "result": "S"}
+            }
+        },
+        {
+            "6":{
+                "qns": "Do you more often let",
+                "ansA": {"response": "your heart rule your head", "result": "F"},
+                "ansB": {"response": "your head rule your heart", "result": "T"}
+            }
+        },
+        {
+            "7":{
+                "qns": "Do you prefer to do many things",
+                "ansA": {"response": "on the spur of the moment", "result": "P"},
+                "ansB": {"response": "according to your plans", "result": "J"}
+            }
+        },
+        {
+            "8":{
+                "qns": "Are you",
+                "ansA": {"response": "easy to get to know", "result": "E"},
+                "ansB": {"response": "hard to get to know", "result": "I"}
+            }
+        },
+        {
+            "9":{
+                "qns": "Does following a schedule",
+                "ansA": {"response": "appeal to you", "result": "J"},
+                "ansB": {"response": "cramp you", "result": "P"}
+            }
+        },
+        {
+            "10":{
+                "qns": "When you have a special job to do, do you like to",
+                "ansA": {"response": "organize it carefully before you start", "result": "J"},
+                "ansB": {"response": "find out what is necessary as you go along", "result": "P"}
+            }
+        },
+        {
+            "11":{
+                "qns": "In most instamces, do you prefer to",
+                "ansA": {"response": "go with the flow", "result": "P"},
+                "ansB": {"response": "follow a schedule","result": "J"}
+            }
+        },
+        {
+            "12":{
+                "qns": "Would most people say you are",
+                "ansA": {"response": "a private person", "result": "I"},
+                "ansB": {"response": "a very open person","result": "E"}
+            }
+        },
+        {
+            "13":{
+                "qns": "Would you rather be considered",
+                "ansA": {"response": "a practical person", "result": "S"},
+                "ansB": {"response": "am ingenious person","result": "N"}
+            }
+        },
+        {
+            "14":{
+                "qns": "In a large group do you more often",
+                "ansA": {"response": "introduce others", "result": "E"},
+                "ansB": {"response": "get introduced","result": "I"}
+            }
+        },
+        {
+            "15":{
+                "qns": "Would you rather have as a friend someone who",
+                "ansA": {"response": "is always coming up with new ideas", "result": "N"},
+                "ansB": {"response": "has both feet on the ground","result": "S"}
+            }
+        },
+        {
+            "16":{
+                "qns": "Are you inclined to",
+                "ansA": {"response": "value sentiment more than logic", "result": "F"},
+                "ansB": {"response": "value logic more than sentiment","result": "T"}
+            }
+        },
+        {
+            "17":{
+                "qns": "Do you prefer to",
+                "ansA": {"response": "wait and see what happens and then make plans", "result": "P"},
+                "ansB": {"response": "plan things far in advance","result": "J"}
+            }
+        },
+        {
+            "18":{
+                "qns": "Do you tend to spend a lot of time",
+                "ansA": {"response": "by yourself", "result": "I"},
+                "ansB": {"response": "with others","result": "E"}
+            }
+        },
+        {
+            "19":{
+                "qns": "Do you find being around a lot of people",
+                "ansA": {"response": "gives you more energy", "result": "E"},
+                "ansB": {"response": "is often 'draining'","result": "I"}
+            }
+        },
+        {
+            "20":{
+                "qns": "Do you prefer to",
+                "ansA": {"response": "arrange dates, parties, etc., well in advance", "result": "J"},
+                "ansB": {"response": "be free to do whatever looks like fun when the time comes","result": "P"}
+            }
+        },
+        {
+            "21":{
+                "qns": "In planning a trip would you prefer to",
+                "ansA": {"response": "most of the time do whatever you feel like that day", "result": "P"},
+                "ansB": {"response": "know ahead oftime what you'll be doing most days","result": "J"}
+            }
+        },
+        {
+            "22":{
+                "qns": "At parties, do you",
+                "ansA": {"response": "sometimes get bored", "result": "I"},
+                "ansB": {"response": "always have fun","result": "E"}
+            }
+        },
+        {
+            "23":{
+                "qns": "Do you usually",
+                "ansA": {"response": "mingle well with others", "result": "E"},
+                "ansB": {"response": "tend to keep more to yourself","result": "I"}
+            }
+        },
+        {
+            "24":{
+                "qns": "Are you more attracted to",
+                "ansA": {"response": "a person with a quick and brilliant mind", "result": "N"},
+                "ansB": {"response": "a practical person with a lot of common sense","result": "S"}
+            }
+        },
+        {
+            "25":{
+                "qns": "In your daily work, do you",
+                "ansA": {"response": "rather enjoy an emergency that makes you work against time", "result": "P"},
+                "ansB": {"response": "usually plan your work so you won't need to work under pressure","result": "J"}
+            }
+        },
+        {
+            "26":{
+                "qns": "Would you say it generally takes others",
+                "ansA": {"response": "a lot of time to get to kow you", "result": "I"},
+                "ansB": {"response": "a little time to get to know you","result": "E"}
+            }
+        },
+        {
+            "27":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "private", "result": "I"},
+                "ansB": {"response": "open","result": "E"}
+            }
+        },
+        {
+            "28":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "scheduled", "result": "J"},
+                "ansB": {"response": "unplanned","result": "P"}
+            }
+        },
+        {
+            "29":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "abstract", "result": "N"},
+                "ansB": {"response": "solid","result": "S"}
+            }
+        },
+        {
+            "30":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "gentle", "result": "F"},
+                "ansB": {"response": "firm","result": "T"}
+            }
+        },
+        {
+            "31":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "thinking", "result": "T"},
+                "ansB": {"response": "feeling","result": "F"}
+            }
+        },
+        {
+            "32":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "facts", "result": "S"},
+                "ansB": {"response": "ideas","result": "N"}
+            }
+        },
+        {
+            "33":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "impulse", "result": "P"},
+                "ansB": {"response": "decision","result": "J"}
+            }
+        },
+        {
+            "34":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "hearty", "result": "E"},
+                "ansB": {"response": "quiet","result": "I"}
+            }
+        },
+        {
+            "35":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "quiet", "result": "I"},
+                "ansB": {"response": "outgoing","result": "E"}
+            }
+        },
+        {
+            "36":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "systematic", "result": "J"},
+                "ansB": {"response": "casual","result": "P"}
+            }
+        },
+        {
+            "37":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "theory", "result": "N"},
+                "ansB": {"response": "certainty","result": "S"}
+            }
+        },
+        {
+            "38":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "sensitive", "result": "F"},
+                "ansB": {"response": "just","result": "T"}
+            }
+        },
+        {
+            "39":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "convincing", "result": "T"},
+                "ansB": {"response": "touching","result": "F"}
+            }
+        },
+        {
+            "40":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "statement", "result": "S"},
+                "ansB": {"response": "concept","result": "N"}
+            }
+        },
+        {
+            "41":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "unconstrained", "result": "P"},
+                "ansB": {"response": "scheduled","result": "J"}
+            }
+        },
+        {
+            "42":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "reserved", "result": "I"},
+                "ansB": {"response": "talkative","result": "E"}
+            }
+        },
+        {
+            "43":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "orderly", "result": "J"},
+                "ansB": {"response": "easygoing","result": "P"}
+            }
+        },
+        {
+            "44":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "idea", "result": "N"},
+                "ansB": {"response": "actuality","result": "S"}
+            }
+        },
+        {
+            "45":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "compassion", "result": "F"},
+                "ansB": {"response": "foresight","result": "T"}
+            }
+        },
+        {
+            "46":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "benefits", "result": "T"},
+                "ansB": {"response": "blessings","result": "F"}
+            }
+        },
+        {
+            "47":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "no-nonsense", "result": "S"},
+                "ansB": {"response": "theoretical","result": "N"}
+            }
+        },
+        {
+            "48":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "few friends", "result": "I"},
+                "ansB": {"response": "lots of friends","result": "E"}
+            }
+        },
+        {
+            "49":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "systematic", "result": "J"},
+                "ansB": {"response": "spontaneous","result": "P"}
+            }
+        },
+        {
+            "50":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "imaginative", "result": "N"},
+                "ansB": {"response": "matter-of-fact","result": "S"}
+            }
+        },
+        {
+            "51":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "warm", "result": "F"},
+                "ansB": {"response": "objective","result": "T"}
+            }
+        },
+        {
+            "52":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "objectibe", "result": "T"},
+                "ansB": {"response": "passionate","result": "F"}
+            }
+        },
+        {
+            "53":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "build", "result": "S"},
+                "ansB": {"response": "invent","result": "N"}
+            }
+        },
+        {
+            "54":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "quiet", "result": "I"},
+                "ansB": {"response": "gregarious","result": "E"}
+            }
+        },
+        {
+            "55":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "theory", "result": "N"},
+                "ansB": {"response": "fact","result": "S"}
+            }
+        },
+        {
+            "56":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "compassionate", "result": "F"},
+                "ansB": {"response": "logical","result": "T"}
+            }
+        },
+        {
+            "57":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "analytical", "result": "T"},
+                "ansB": {"response": "sentimental","result": "F"}
+            }
+        },
+        {
+            "58":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "sensible", "result": "S"},
+                "ansB": {"response": "fascinating","result": "N"}
+            }
+        },
+        {
+            "59":{
+                "qns": "When you start a big project that is due in a week, do you",
+                "ansA": {"response": "take your time to list the separate things to be doen and the order of doing them", "result": "J"},
+                "ansB": {"response": "plunge in","result": "P"}
+            }
+        },
+        {
+            "60":{
+                "qns": "In social situations do yo generally find it",
+                "ansA": {"response": "difficult to start and maintain a conversation with some people", "result": "I"},
+                "ansB": {"response": "easy to talk to most people for long periods of time","result": "E"}
+            }
+        },
+        {
+            "61":{
+                "qns": "In doing something that many other people do, does it appeal to you more to",
+                "ansA": {"response": "do it in the accepted way", "result": "S"},
+                "ansB": {"response": "invent a way of your own ","result": "N"}
+            }
+        },
+        {
+            "62":{
+                "qns": "Can the new people you meet tell what you are interested in",
+                "ansA": {"response": "right away", "result": "E"},
+                "ansB": {"response": "only after they really get to know you","result": "I"}
+            }
+        },
+        {
+            "63":{
+                "qns": "Do you generally prefer courses that teach",
+                "ansA": {"response": "concepts and principles", "result": "N"},
+                "ansB": {"response": "facts and figures","result": "S"}
+            }
+        },
+        {
+            "64":{
+                "qns": "Is it a higher compliment to be called",
+                "ansA": {"response": "a person of real feelings", "result": "F"},
+                "ansB": {"response": "a consistently reasonable person","result": "T"}
+            }
+        },
+        {
+            "65":{
+                "qns": "Do you find going by a schedule",
+                "ansA": {"response": "necessary at times but generally unfavourable", "result": "P"},
+                "ansB": {"response": "helpful and favorable most of the time","result": "J"}
+            }
+        },
+        {
+            "66":{
+                "qns": "When you are with a group of people, would you usually rather",
+                "ansA": {"response": "talk individually with people you know well", "result": "I"},
+                "ansB": {"response": "join in the talk of the group","result": "E"}
+            }
+        },
+        {
+            "67":{
+                "qns": "At parties do you",
+                "ansA": {"response": "do much of the talking", "result": "E"},
+                "ansB": {"response": "let others do most of the talking","result": "I"}
+            }
+        },
+        {
+            "68":{
+                "qns": "Does the idea of making a list of what you should get done over a weekend",
+                "ansA": {"response": "appeal to you", "result": "J"},
+                "ansB": {"response": "leave you cold","result": "P"}
+            }
+        },
+        {
+            "69":{
+                "qns": "Which is a higher complement to be called",
+                "ansA": {"response": "competent", "result": "T"},
+                "ansB": {"response": "compassionate","result": "F"}
+            }
+        },
+        {
+            "70":{
+                "qns": "Do you generally prefer to",
+                "ansA": {"response": "make your social engagements some distance ahed", "result": "J"},
+                "ansB": {"response": "be free to do things on the spur of the moment","result": "P"}
+            }
+        },
+        {
+            "71":{
+                "qns": "Overall, when working on a big assignment, do you tend to",
+                "ansA": {"response": "figure out what needs to be done as you go along", "result": "P"},
+                "ansB": {"response": "begin by breaking it down nto steps","result": "J"}
+            }
+        },
+        {
+            "72":{
+                "qns": "Can you keep a conversation going indefinitely",
+                "ansA": {"response": "only with people who share some interest of yours", "result": "I"},
+                "ansB": {"response": "with almost anyone","result": "E"}
+            }
+        },
+        {
+            "73":{
+                "qns": "Would you rather",
+                "ansA": {"response": "support the established methods of doing good", "result": "S"},
+                "ansB": {"response": "analyze what is still wrong and attack unsolved problems","result": "N"}
+            }
+        },
+        {
+            "74":{
+                "qns": "In reading for pleasure, do you",
+                "ansA": {"response": "enjoy odd or original ways of saying things", "result": "N"},
+                "ansB": {"response": "like writers to say exactly what they mean","result": "S"}
+            }
+        },
+        {
+            "75":{
+                "qns": "Would you rather wotk under a boss (or teacher) who is",
+                "ansA": {"response": "good-natured but often inconsistent", "result": "F"},
+                "ansB": {"response": "sharp-tongued but always logical","result": "T"}
+            }
+        },
+        {
+            "76":{
+                "qns": "Would you prefer to do most things according to",
+                "ansA": {"response": "however you feel that particular day", "result": "P"},
+                "ansB": {"response": "a set schedule","result": "J"}
+            }
+        },
+        {
+            "77":{
+                "qns": "Can you",
+                "ansA": {"response": "talk easily to almost anyone for as long as you have to", "result": "E"},
+                "ansB": {"response": "find a lot to say only to certain people or under certain conditions","result": "I"}
+            }
+        },
+        {
+            "78":{
+                "qns": "when making a decision, is it more important to you to",
+                "ansA": {"response": "weigh the facts", "result": "T"},
+                "ansB": {"response": "consider people's feelings and opinionss","result": "F"}
+            }
+        },
+        {
+            "79":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "imaginative", "result": "N"},
+                "ansB": {"response": "realistic","result": "S"}
+            }
+        },
+        {
+            "80":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "bighearted", "result": "F"},
+                "ansB": {"response": "firm-minded","result": "T"}
+            }
+        },
+        {
+            "81":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "fair-minded", "result": "T"},
+                "ansB": {"response": "caring","result": "F"}
+            }
+        },
+        {
+            "82":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "production", "result": "S"},
+                "ansB": {"response": "design","result": "N"}
+            }
+        },
+        {
+            "83":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "possibilities", "result": "N"},
+                "ansB": {"response": "certainties","result": "S"}
+            }
+        },
+        {
+            "84":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "tenderness", "result": "F"},
+                "ansB": {"response": "strength","result": "T"}
+            }
+        },
+        {
+            "85":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "practical", "result": "T"},
+                "ansB": {"response": "sentimental","result": "F"}
+            }
+        },
+        {
+            "86":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "make", "result": "S"},
+                "ansB": {"response": "create","result": "N"}
+            }
+        },
+        {
+            "87":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "novel", "result": "N"},
+                "ansB": {"response": "already known","result": "S"}
+            }
+        },
+        {
+            "88":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "sympathize", "result": "F"},
+                "ansB": {"response": "analyze","result": "T"}
+            }
+        },
+        {
+            "89":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "strong-willed", "result": "T"},
+                "ansB": {"response": "tenderhearted","result": "F"}
+            }
+        },
+        {
+            "90":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "concrete", "result": "S"},
+                "ansB": {"response": "abstract","result": "N"}
+            }
+        },
+        {
+            "91":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "devoted", "result": "F"},
+                "ansB": {"response": "determined","result": "T"}
+            }
+        },
+        {
+            "92":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "competent", "result": "T"},
+                "ansB": {"response": "kindhearted","result": "S"}
+            }
+        },
+        {
+            "93":{
+                "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
+                "ansA": {"response": "practical", "result": "S"},
+                "ansB": {"response": "innovative","result": "N"}
+            }
+        }
+    ]
+}
