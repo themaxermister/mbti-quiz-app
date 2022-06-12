@@ -72,7 +72,7 @@
         },
         {
             "11":{
-                "qns": "In most instamces, do you prefer to",
+                "qns": "In most instances, do you prefer to",
                 "ansA": {"response": "go with the flow", "result": "P"},
                 "ansB": {"response": "follow a schedule","result": "J"}
             }
@@ -88,7 +88,7 @@
             "13":{
                 "qns": "Would you rather be considered",
                 "ansA": {"response": "a practical person", "result": "S"},
-                "ansB": {"response": "am ingenious person","result": "N"}
+                "ansB": {"response": "an ingenious person","result": "N"}
             }
         },
         {
@@ -360,7 +360,7 @@
         {
             "52":{
                 "qns": "Which word appeals to you more? Think about what the words mean, not about how they look or sound.",
-                "ansA": {"response": "objectibe", "result": "T"},
+                "ansA": {"response": "objective", "result": "T"},
                 "ansB": {"response": "passionate","result": "F"}
             }
         },
@@ -478,7 +478,7 @@
         },
         {
             "69":{
-                "qns": "Which is a higher complement to be called",
+                "qns": "Which is a higher compliment to be called",
                 "ansA": {"response": "competent", "result": "T"},
                 "ansB": {"response": "compassionate","result": "F"}
             }
@@ -541,9 +541,9 @@
         },
         {
             "78":{
-                "qns": "when making a decision, is it more important to you to",
+                "qns": "When making a decision, is it more important to you to",
                 "ansA": {"response": "weigh the facts", "result": "T"},
-                "ansB": {"response": "consider people's feelings and opinionss","result": "F"}
+                "ansB": {"response": "consider people's feelings and opinions","result": "F"}
             }
         },
         {
