@@ -520,7 +520,7 @@
         },
         {
             "75":{
-                "qns": "Would you rather wotk under a boss (or teacher) who is",
+                "qns": "Would you rather work under a boss (or teacher) who is",
                 "ansA": {"response": "good-natured but often inconsistent", "result": "F"},
                 "ansB": {"response": "sharp-tongued but always logical","result": "T"}
             }

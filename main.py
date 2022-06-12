@@ -1,5 +1,6 @@
 import os
 import sys
+import csv
 import json
 
 def resource_path(relative_path):
@@ -42,6 +43,9 @@ def menu():
     print("(2) Show last results")
     print("\n")
 
+def remove_spaces(str_input):
+    return str_input.lower().strip().replace(" ", "_")\
+    
 def check_clarity(num):
     if num < 14:
         return "Slight"
@@ -85,14 +89,53 @@ def display_results():
         print(key, ":", value)
     print("\n")
     input("Press enter to continue")
+
+def append_results(file_name):
+    with open(file_name, 'a') as f:
+        # Pass this file object to csv.writer()
+        # and get a writer object
+        writer = csv.writer(f)
     
+        # Pass the list as an argument into
+        # the writerow()
+        writer.writerow([])
+        writer.writerow(["Results", "Clarity"])
+        for key, value in final.items():
+            writer.writerow([key, value])
+        #Close the file object
+        f.close()
+
 def quiz():
+    # Get name
+    csv_file_name = ""
+
+    while True:
+        user_name = remove_spaces(input("Enter name: "))
+        csv_file_name = ("%s_results.csv" % (user_name))
+        confirm_user = input ("Saving results to %s. Confirm (Y/n)? " % (csv_file_name))
+        if confirm_user.lower() in ["y", ""]:
+            break
+        elif confirm_user.lower() == "n":
+            input("Cancelled. Press enter to try again\n")
+        else:
+            input("Invalid option. Press enter to try again\n")
+    
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+    # Start csv writer
+    csv_f = open(csv_file_name, 'w')
+    writer = csv.writer(csv_f)
+    header = ["Question", "Answer", "Result"]
+    writer.writerow(header)
+    
+    # Load Qns
     f = open(resource_path("mbti.json"))
     data = json.load(f)
     for obj in data['form']:
         for key, value in obj.items():
-            print("Question", key)
-            print("-----------")
+            print_qns = "Question %s: %s" % (key, value['qns'])
+            print(print_qns)
+            print("-" * (len(print_qns)+1))
             print("Option A:", value["ansA"]["response"])
             print("Option B:", value["ansB"]["response"])
             print("\n")
@@ -105,15 +148,22 @@ def quiz():
                 else:
                     break
         
+            row = []
             if ans == "a":
+                row = [value['qns'], value["ansA"]["response"], value["ansA"]["result"]]
                 current[value["ansA"]["result"]] += 1
             elif ans == "b":
+                row = [value['qns'], value["ansB"]["response"], value["ansB"]["result"]]
                 current[value["ansB"]["result"]] += 1
+            writer.writerow(row)
         
         os.system('cls' if os.name == 'nt' else 'clear')
 
+    csv_f.close()
+    f.close()
     get_results()
     display_results()
+    append_results(csv_file_name)
 
 def reset():
     current = {
